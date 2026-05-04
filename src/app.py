@@ -2,10 +2,12 @@ import streamlit as st
 import numpy as np 
 from flask import Flask, render_template,request
 import math
+import os
 import pickle
 
 app=Flask(__name__)
 
+model_path = os.path.join(os.path.dirname(__file__), "model.pkl")
 model2=pickle.load(open('model.pkl','rb'))
 
 @app.route('/')
