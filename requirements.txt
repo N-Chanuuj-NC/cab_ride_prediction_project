@@ -1,11 +1,6 @@
-scikit-learn
 flask
+numpy
+scikit-learn
 pandas
-ipykernel
-numpy 
-streamlit
 matplotlib
 seaborn
-math
-pickle
-
