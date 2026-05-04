@@ -6,3 +6,6 @@ numpy
 streamlit
 matplotlib
 seaborn
+math
+pickle
+
